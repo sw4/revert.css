@@ -1,0 +1,174 @@
+html.unreset,
+bodyaddress.unreset,
+blockquote.unreset,
+body.unreset,
+dd.unreset,
+div.unreset,
+dl.unreset,
+dt.unreset,
+fieldset.unreset,
+form.unreset,
+frame.unreset,
+frameset.unreset,
+h1.unreset,
+h2.unreset,
+h3.unreset,
+h4.unreset,
+h5.unreset,
+h6.unreset,
+noframes.unreset,
+ol.unreset,
+p.unreset,
+ul.unreset,
+center.unreset,
+dir.unreset,
+hr.unreset,
+menu.unreset,
+pre.unreset {
+    display: block;
+    unicode-bidi: embed;
+}
+li.unreset { display: list-item }
+head.unreset { display: none }
+table.unreset { display: table }
+tr.unreset { display: table-row }
+thead.unreset { display: table-header-group }
+tbody.unreset { display: table-row-group }
+tfoot.unreset { display: table-footer-group }
+col.unreset { display: table-column }
+colgroup.unreset { display: table-column-group }
+td.unreset,
+th.unreset { display: table-cell }
+caption.unreset { display: table-caption }
+th.unreset {
+    font-weight: bolder;
+    text-align: center;
+}
+caption.unreset { text-align: center }
+body.unreset { margin: 8px }
+h1.unreset {
+    font-size: 2em;
+    margin: .67em 0;
+}
+h2.unreset {
+    font-size: 1.5em;
+    margin: .75em 0;
+}
+h3.unreset{
+    font-size: 1.17em;
+    margin: .83em 0;
+}
+h4.unreset,
+p.unreset,
+blockquote.unreset,
+ul.unreset,
+fieldset.unreset,
+form.unreset,
+ol.unreset,
+dl.unreset,
+dir.unreset,
+menu.unreset { margin: 1.12em 0 }
+h5.unreset {
+    font-size: .83em;
+    margin: 1.5em 0;
+}
+h6.unreset {
+    font-size: .75em;
+    margin: 1.67em 0;
+}
+h1.unreset,
+h2.unreset,
+h3.unreset,
+h4.unreset,
+h5.unreset,
+h6.unreset,
+b.unreset,
+strong.unreset { font-weight: bolder }
+blockquote.unreset {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+i.unreset,
+cite.unreset,
+em.unreset,
+var.unreset,
+address.unreset { font-style: italic }
+pre.unreset,
+tt.unreset,
+code.unreset,
+kbd.unreset,
+samp.unreset { font-family: monospace }
+pre.unreset { white-space: pre }
+button.unreset,
+textarea.unreset,
+input.unreset,
+select.unreset { display: inline-block }
+big.unreset { font-size: 1.17em }
+small.unreset,
+sub.unreset,
+sup.unreset { font-size: .83em }
+sub.unreset { vertical-align: sub }
+sup.unreset { vertical-align: super }
+table.unreset { border-spacing: 2px }
+thead.unreset,
+tbody.unreset,
+tfoot.unreset { vertical-align: middle }
+td.unreset,
+th.unreset,
+tr.unreset { vertical-align: inherit }
+s.unreset,
+strike.unreset,
+del.unreset{ text-decoration: line-through }
+hr.unreset { border: 1px inset }
+ol.unreset,
+ul.unreset,
+dir.unreset,
+menu.unreset,
+dd.unreset { margin-left: 40px }
+ol.unreset { list-style-type: decimal }
+ol ul.unreset,ol.unreset  ul,
+ul ol.unreset,ul.unreset  ol,
+ul ul.unreset,ul.unreset  ul,
+ol ol.unreset, ol.unreset  ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+u.unreset,
+ins.unreset { text-decoration: underline }
+br.unreset:before {
+    content: "\A";
+    white-space: pre-line;
+}
+center.unreset { text-align: center }
+:link,
+:visited { text-decoration: underline }
+:focus { outline: thin dotted invert }
+/* Begin bidirectionality settings (do not change) */
+BDO.unreset[DIR="ltr"] {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+BDO.unreset[DIR="rtl"] {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+*.unreset[DIR="ltr"] {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+*.unreset[DIR="rtl"] {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+@media print { 
+    h1.unreset { page-break-before: always }
+    h1.unreset,
+    h2.unreset,
+    h3.unreset,
+    h4.unreset,
+    h5.unreset,
+    h6.unreset { page-break-after: avoid }
+    ul.unreset,
+    ol.unreset,
+    dl.unreset { page-break-before: avoid }
+}
